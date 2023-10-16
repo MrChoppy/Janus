@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "567994710024",
+    "project_id": "janus-9501b",
+    "storage_bucket": "janus-9501b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567994710024:android:345d9f1ea9ee6ea62239bd",
+        "android_client_info": {
+          "package_name": "com.example.janus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaDbR7stlPs_yroW8gZ0Z8PzioySex6gI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

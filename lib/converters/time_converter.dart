@@ -43,7 +43,11 @@ class _TimeConverterState extends State<TimeConverter> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Time Converter'),
+          centerTitle: true,
+          title: const Text(
+            'Time Converter',
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          ),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -57,12 +61,6 @@ class _TimeConverterState extends State<TimeConverter> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  const Text(
-                    'Time Converter',
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                    textAlign: TextAlign.center,
-                  ),
-                  const SizedBox(height: 20),
                   TextField(
                     keyboardType: TextInputType.number,
                     onChanged: (value) {

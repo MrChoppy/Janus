@@ -35,7 +35,11 @@ class _AnglesConverterState extends State<AnglesConverter> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Angles Converter'),
+        centerTitle: true,
+        title: const Text(
+          'Angles Converter',
+          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -49,12 +53,6 @@ class _AnglesConverterState extends State<AnglesConverter> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
-                const Text(
-                  'Angles Converter',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 10),
                 TextField(
                   keyboardType: TextInputType.number,
                   onChanged: (value) {
